@@ -1,4 +1,4 @@
-# ![alt text](https://github.com/PaloAltoNetworks/redist-check/blob/main/palo.ico?raw=true) redist-check
+# ![alt text](https://github.com/PaloAltoNetworks/userid-check/blob/main/palo.ico?raw=true) redist-check
 This tool empowers you to effortlessly determine the PAN-OS Version and Content-Version running on your Palo Alto Networks Next Generation Firewalls and Panorama devices. The primary objective is to ensure that your devices operate on a PAN-OS and Content version unaffected by the expiration of root and default certificates on December 31st, 2023.  For further details, please refer to these links below:
 
 ### [PAN-OS Root and Default Certificate Expiration on December 31, 2023](https://knowledgebase.paloaltonetworks.com/KCSArticleDetail?id=kA14u0000008Vp5CAE)
@@ -53,7 +53,7 @@ python3 redist-check.py -h
 
 usage: redist-check.py [-h] [-x] [-w [W]] [-o] [-c]
 
-Usage Examples: 
+Usage Examples:
 
 	python3 redist-check.py -x
 
